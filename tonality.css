@@ -1,0 +1,58 @@
+
+html, body { 
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0;
+}
+
+body {    
+    background-image: url(media/guitarist.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;   
+    background-attachment: fixed;
+}
+
+.big-container
+{
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.main {
+    background-color: #FF0000;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    flex-grow: 1;
+    
+    display:flex;
+    flex-direction: row-reverse;
+    /* flex-wrap: nowrap; */
+}
+
+
+
+#canvas { 
+    background-color: rgb(255, 255, 255, 0.75);
+    width: 50%;
+    margin: 10px;
+    border-radius: 0.5vmax;
+}
+
+.spacer
+{
+    width: 50%
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 8vmin;
+    color: rgb(223, 1, 1);
+    margin: 0;
+}
